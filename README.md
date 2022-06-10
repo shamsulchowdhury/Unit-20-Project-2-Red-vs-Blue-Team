@@ -204,7 +204,7 @@ After loading the exploit and activating the shell.php we uploaded earlier by cl
 python -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
-![alt-text](main/images/Picture31.png)
+![alt-text](images/Picture31.png)
 
 ### **Finding Flag 2:**
 
