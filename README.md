@@ -198,7 +198,9 @@ After loading the exploit and activating the shell.php we uploaded earlier by cl
 
 ![alt-text](images/Picture30.png)
 
-### **Gaining Interactive Shell:**
+### **Gaining Interactive Shell:** and **Finding Flag 2:**
+
+The next flag was located in the root directory.
 
 ```
 python -c 'import pty; pty.spawn("/bin/bash")'
@@ -206,11 +208,7 @@ python -c 'import pty; pty.spawn("/bin/bash")'
 
 ![alt-text](images/Picture31.png)
 
-### **Finding Flag 2:**
 
-The next flag was located in the root directory.
-
-![alt-text](images/Picture32.png)
 
 Exit back to meterpreter.
 
